@@ -1,0 +1,23 @@
+//Colours
+
+$blue: #F3F3F3;      //White colour  Primary
+$gray-600: #1C1C1C;  //Black Colour  Secondary
+$light: #DBDBDB;     //Grey Colour   Light
+$yellow: #F1660D;    //Orange Colour Warning
+
+//Fonts
+$headings-font-family: 'futura-pt', sans-serif;
+$display4-size: 20px;
+$h4-font-size: 25px;
+
+@import "../bootstrap-4.5.3/scss/bootstrap.scss";
+
+
+.filterClass{
+  float:left;
+  height:100vh;
+}
+
+.filterForm {
+  height: 100%;
+}
