@@ -160,7 +160,7 @@ $('#sortBtn').change(function(){
   var sortType = ($('#sortBtn').val()).toLowerCase();
   console.log(sortType);
 
-  if((sortType === 'name') || (sortType === 'type') || (sortType === 'color') || (sortType === 'size') || (sortType === 'price')){
+  if((sortType === 'name')){
     sortByAscending(sortType); // calling function.
   }
 
@@ -176,26 +176,6 @@ function sortByAscending(dummySortType){
 
     case 'name' :
     console.log('name');
-    var itemA = a.name.toLowerCase(), itemB = b.name.toLowerCase();
-    break;
-
-    case 'type' :
-    console.log('type');
-    var itemA = a.name.toLowerCase(), itemB = b.name.toLowerCase();
-    break;
-
-    case 'color' :
-    console.log('color');
-    var itemA = a.name.toLowerCase(), itemB = b.name.toLowerCase();
-    break;
-
-    case 'size' :
-    console.log('size');
-    var itemA = a.name.toLowerCase(), itemB = b.name.toLowerCase();
-    break;
-
-    case 'price' :
-    console.log('price');
     var itemA = a.name.toLowerCase(), itemB = b.name.toLowerCase();
     break;
 
